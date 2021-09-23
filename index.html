@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/e6258a65d6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Phono - Headphones of the future</title>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <h1><a href="index.html">Phono</a></h1>
+
+            <nav class="main_nav">
+                <ul>
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#about.html">About</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <!-- Showcase -->
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>The headphones of the future</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod incidunt doloremque ad hic ratione nemo. Perferendis iure eaque necessitatibus ex!</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+            <img src="img/showcase.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Overlay -->
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Loud & Clear</h3>
+                <h2>People Ain't Hearing All The Music</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laborum rerum cum praesentium quo molestiae esse tempore molestias nesciunt! Molestias?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c">
+        <div class="gallery">
+            <a href="img/gal2323.jpg" class="big"><img src="img/gal2323.jpg" alt=""></a>
+            <a href="img/gal39834.jpg" class="big"><img src="img/gal39834.jpg" alt=""></a>
+            <a href="img/gal43884.jpg" class="big"><img src="img/gal43884.jpg" alt=""></a>
+            <a href="img/4958.jpg" class="big"><img src="img/gal4958.jpg" alt=""></a>
+            <a href="img/4545.jpg" class="big"><img src="img/gal4545.jpg" alt=""></a>
+            <a href="img/gal74744.jpg" class="big"><img src="img/gal74744.jpg" alt=""></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <h2>Reach Us On Social.</h2>
+                <a href="http://twitter.com"></a>
+                <i class="fab fa-twitter fa-2x"></i>
+                <a href="http://facebook.com"></a>
+                <i class="fab fa-facebook fa-2x"></i>
+                <a href="http://youtube.com"></a>
+                <i class="fab fa-youtube fa-2x"></i>
+            </div>
+            <div>
+                <h3>Company Info</h3>
+
+                <ul>
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Blog Posts</h3>
+                <li><a href="#">Lorem, ipsum dolor.</a></li>
+                <li><a href="#">Lorem, ipsum dolor.</a></li>
+                <li><a href="#">Lorem, ipsum dolor.</a></li>
+                <li><a href="#">Lorem, ipsum dolor.</a></li>
+            </div>
+            <div>
+                <h3>Subscribe</h3>
+                <p>We will give you updates on great offers, products and community building projects</p>
+                <form name="email-form" method="POST" data-netlify="true "></form>
+                <div class="email-form">
+                    <span class="form-control-wrap">
+                        <input 
+                        type="text"
+                        name="email"
+                        id="email"
+                        size="40"
+                        class="form-control"
+                        placeholder="Email"
+                        />
+                    </span>
+                    <button type="submit" class="form-control submit">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="crt">
+        <p>Copyright &copy tha_koncept 2021</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(function() {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+</body>
+
+</html>
